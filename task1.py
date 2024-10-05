@@ -1,16 +1,9 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = int(input())
+if a < 5:
+    hrs = 7 + a
+    min = 30 - (a-1) * 5
+    print (f'{hrs}:{min}---{hrs+1}:{min-15}')
+elif a >= 5:
+    hrs = 7+a
+    min = 50 - (a-1) * 5
+    print (f'{hrs}:{min}---{hrs+1}:{min-15}')
